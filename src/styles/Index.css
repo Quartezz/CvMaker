@@ -50,3 +50,62 @@
     list-style: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+.btn {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    opacity: 90%;
+    transition: opacity 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 100%;
+}
+
+.btn-add {
+    background-color: #132e53;
+    width: 100%;
+}
+
+.btn-delete {
+    background-color: #a33636;
+    width: 50%;
+}
+
+.btn-save {
+    width: 50%;
+    background-color: #47d85f;
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input {
+    min-height: 50px;
+    border: none;
+    border-radius: 7px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    min-width: 100%;
+    display: block;
+}
+
+input:active {
+    border: 2px solid var(--darkBlue);
+}
+
+.description {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}

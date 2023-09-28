@@ -1,0 +1,7 @@
+header {
+    box-sizing: border-box;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    font-size: large;
+    background-color: rgb(9, 41, 70);
+    color: #fff;
+}

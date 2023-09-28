@@ -41,7 +41,7 @@ export default function Main() {
         setAdress(event.target.value)
     }
 
-    function Phone(event) {
+    function PhoneNumber(event) {
         setPhoneNumber(event.target.value)
     }
 
@@ -235,7 +235,7 @@ export default function Main() {
                 Email={Email}
                 Description={Description}
                 Address={Adress}
-                Phone={Phone}
+                PhoneNumber={PhoneNumber}
                 />
                 <Experience
                 onSubmit={addExperience}

@@ -9,7 +9,7 @@ export default function Footer() {
           kamilmachel
         </p>
         <a href="https://github.com/Quartezz" target="_blank">
-          <i class="fab fa-github"></i></a>
+          <i className="fab fa-github"></i></a>
         </footer>
     )
 }

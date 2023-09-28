@@ -232,7 +232,7 @@ export default function Main() {
                 <PersonalInfo
                 FirstName={FirstName}
                 LastName={LastName}
-                Title={LastName}
+                Title={Title}
                 Email={Email}
                 Description={Description}
                 Address={Address}

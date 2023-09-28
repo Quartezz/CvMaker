@@ -93,7 +93,7 @@ input {
     border-radius: 7px;
     padding: 0 10px;
     margin-bottom: 10px;
-    min-width: 100%;
+    min-width: 95%;
     display: block;
 }
 
@@ -102,10 +102,14 @@ input:active {
 }
 
 .description {
-    width: 100%;
+    width: 95%;
     height: 100%;
     text-align: left;
     border-radius: 10px;
     border: none;
     padding: 10px;
+}
+
+h2 {
+    margin: 10px;
 }

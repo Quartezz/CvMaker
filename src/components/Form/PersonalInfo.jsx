@@ -14,6 +14,7 @@ export default function PersonalInfo(
     return (
         <>
         <div id="personal-info">
+            <h2>Personal Information</h2>
             <input type="text" placeholder="First Name" onChange={FirstName} />
             <input type="text" placeholder="Last Name" onChange={LastName} />
             <input type="text" placeholder="Title" onChange={Title} />

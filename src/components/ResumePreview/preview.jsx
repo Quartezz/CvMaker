@@ -1,6 +1,7 @@
 import PreviewPersonal from "./previewPersonal"
 import PreviewEducation from "./previewEducation"
 import PreviewExperience from "./previewExperience"
+import "../../styles/Preview.css"
 
 export default function Preview({
     firstName,

@@ -16,4 +16,29 @@ export default function Main() {
     const [phoneNumber, setPhoneNumber] = useState(null)
     const [experience, setExperience] = useState([])
     const [education, setEducation] = useState([])
+
+    function FirstName(event) {
+        setFirstName(event.target.value)
+    }
+
+    function LastName(event) {
+        setLastName(event.target.value)
+    }
+
+    function Title(event) {
+        setTitle(event.target.value)
+    }
+
+    function Description(event) {
+        setDescription(event.target.value)
+    }
+
+    function Adress(event) {
+        setAdress(event.target.value)
+    }
+
+    function Phone(event) {
+        setPhoneNumber(event.target.value)
+    }
+
 }

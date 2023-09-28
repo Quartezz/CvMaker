@@ -4,6 +4,7 @@ import Experience from "./Form/Experience"
 import Education from "./Form/Education"
 import { v4 as uuidv4 } from "uuid"
 import ReactToPrint from "react-to-print"
+import Preview from "./ResumePreview/preview"
 
 export default function Main() {
     let componentRef = null;
@@ -11,7 +12,7 @@ export default function Main() {
     const [lastName, setLastName] = useState(null)
     const [title, setTitle] = useState(null)
     const [description, setDescription] = useState(null)
-    const [address, setAdress] = useState(null)
+    const [address, setAddress] = useState(null)
     const [email, setEmail] = useState(null)
     const [phoneNumber, setPhoneNumber] = useState(null)
     const [experience, setExperience] = useState([])
@@ -37,8 +38,8 @@ export default function Main() {
         setDescription(event.target.value)
     }
 
-    function Adress(event) {
-        setAdress(event.target.value)
+    function Address(event) {
+        setAddress(event.target.value)
     }
 
     function PhoneNumber(event) {
@@ -234,7 +235,7 @@ export default function Main() {
                 Title={LastName}
                 Email={Email}
                 Description={Description}
-                Address={Adress}
+                Address={Address}
                 PhoneNumber={PhoneNumber}
                 />
                 <Experience
@@ -263,6 +264,17 @@ export default function Main() {
                 </section>
             </section>
             <div className="preview" ref={(el) => componentRef = el}>
+                <Preview
+                firstName={firstName}
+                lastName={lastName}
+                title={title}
+                phoneNumber={phoneNumber}
+                description={description}
+                address={address}
+                email={email}
+                experience={experience}
+                education={education}
+                />
             </div>
         </div>
         </>

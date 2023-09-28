@@ -1,12 +1,16 @@
 footer {
     display: flex;
-    max-width: 100%;
+    width: 100%;
     background-color: rgb(9, 41, 70);
     color: #fff;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
     font-size: large;
+}
+
+footer p {
+    color: #fff;
 }
 
 footer .fa-github {

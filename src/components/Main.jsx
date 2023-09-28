@@ -29,6 +29,10 @@ export default function Main() {
         setTitle(event.target.value)
     }
 
+    function Email(event) {
+        setEmail(event.target.value)
+    }
+
     function Description(event) {
         setDescription(event.target.value)
     }
